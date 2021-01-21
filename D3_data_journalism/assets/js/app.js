@@ -43,7 +43,7 @@ function xScale(censusData, chosenXAxis) {
     return xLinearScale;
 }
 
-//function used for updating y-scale var upon clicking on axis label
+
 function yScale(censusData, chosenYAxis) {
     //create scales
     var yLinearScale = d3.scaleLinear()
