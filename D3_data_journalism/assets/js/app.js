@@ -23,7 +23,7 @@ var svg = chart.append("svg")
     .attr("width", svgWidth)
     .attr("height", svgHeight);
 
-//append an svg group
+
 var chartGroup = svg.append("g")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
