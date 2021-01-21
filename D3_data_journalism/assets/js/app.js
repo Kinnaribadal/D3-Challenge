@@ -31,7 +31,7 @@ var chartGroup = svg.append("g")
 var chosenXAxis = "poverty";
 var chosenYAxis = "healthcare";
 
-//function used for updating x-scale var upon clicking on axis label
+
 function xScale(censusData, chosenXAxis) {
     //create scales
     var xLinearScale = d3.scaleLinear()
